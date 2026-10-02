@@ -1,0 +1,11 @@
+# Project-specific overrides
+# Exclude build artifacts
+*.htm linguist-vendored
+public/* linguist-vendored
+
+src/**/*.tsx linguist-detectable
+* text=auto
+
+vendor/* linguist-vendored
+*.jpeg binary
+*.woff binary
